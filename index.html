@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome | Booi Ayabonga</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: linear-gradient(to bottom, #000000, #1a1a1a);
+      color: white;
+    }
+
+    /* NAVBAR */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      background-color: black;
+      flex-wrap: wrap;
+    }
+    nav div:first-child {
+      font-weight: bold;
+      font-size: 1.2rem;
+      color: rgb(0, 225, 255);
+    }
+    nav a {
+      color: rgb(0, 225, 255);
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: white;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      text-align: center;
+      padding: 6rem 1rem 3rem;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      color: rgb(0, 225, 255);
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ccc;
+      margin-top: 1rem;
+    }
+    .buttons {
+      margin-top: 2rem;
+    }
+    .buttons a {
+      text-decoration: none;
+      padding: 0.8rem 1.6rem;
+      margin: 0 0.5rem;
+      border-radius: 6px;
+      font-weight: bold;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+    .btn-primary {
+      background: rgb(0, 225, 255);
+      color: black;
+    }
+    .btn-primary:hover {
+      background: #e6c200;
+    }
+    .btn-secondary {
+      background: #333;
+      color: white;
+    }
+    .btn-secondary:hover {
+      background: #555;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #000;
+      color: #aaa;
+      padding: 3rem 1rem 2rem;
+      margin-top: 4rem;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .footer-container div {
+      min-width: 200px;
+    }
+
+    footer h3 {
+      color: rgb(0, 225, 255);
+      margin-bottom: 0.5rem;
+    }
+
+    footer ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer ul li {
+      margin-bottom: 0.3rem;
+    }
+
+    footer ul li a {
+      color: #ccc;
+      text-decoration: none;
+    }
+
+    footer ul li a:hover {
+      color: white;
+    }
+
+    .footer-bottom {
+      text-align: center;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #666;
+      border-top: 1px solid #333;
+      padding-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div>My Project</div>
+    <div>
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="#">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>A glimpse to my world, take a look and get to know me.</p>
+    <div class="buttons">
+      <a href="profile.html" class="btn-primary">View My Profile</a>
+      <a href="#Learn more" class="btn-secondary">Learn More</a>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-container">
+      <div>
+        <h3>Contact</h3>
+        <p>Email: booiayabonga26@gmail.com</p>
+        <p>Phone: 083 457 2466</p>
+        <p>Location: KwaZulu-Natal, South Africa</p>
+      </div>
+      <div>
+        <h3>Links</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile.html">Profile</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Socials</h3>
+        <ul>
+          <li><a href="https://wa.me/27735677889" target="_blank">WhatsApp</a></li>
+          <li><a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/YOUR-GITHUB" target="_blank">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Booi Ayabonga. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
